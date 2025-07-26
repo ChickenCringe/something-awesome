@@ -10,9 +10,3 @@ This is a clone of the login page for UNSW + Microsoft outlook accounts with its
 - HTML
 - CSS
 - JavaScript
-
-### ALT-DOMAINS
-
-- https://unsw.university
-- https://sso.unsw.university
-- https://sso.unsw.edu.au.unsw.university/
