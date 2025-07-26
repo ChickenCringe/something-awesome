@@ -1,8 +1,8 @@
 ## UNSW LOGIN CLONE
 
-This is a clone of the iconic login page for UNSW + Microsoft outlook accounts with its form validation.
+This is a clone of the login page for UNSW + Microsoft outlook accounts with its form validation.
 
-> In as much as this script does not process information submitted, please do not submit any personal information!
+> ‼️PLEASE DO NOT SUBMIT ANY PERSONAL INFORMATION. THIS WEBSITE ONLY EXISTS FOR EDUCATIONAL PURPOSES. ANYTHING YOU PUT IN WILL BE LOGGED.‼️
 
 > I DO NOT OWN the rights to any images used in this page!
 ### ✨TECH-STACK
