@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Redirect to UNSW system after 1 second
             setTimeout(() => {
-                window.location.href = "https://my.sshrm.unsw.edu.au/psc/hrm/NS_HRSELFSERVICE/PSFT_HR/c/PT_FLDASHBOARD.PT_FLDASHBOARD.GBL?DB=HC_TL_EMP_DYN_DB&lp=PSFT_HR.NS_HRSELFSERVICE.HC_TL_EMP_DYN_DB&Page=PT_LANDINGPAGE&ticket=ST-30740-zldyoGHxfzhaBE15Ghe3dbRPhZU-infplcas103";
+                window.location.href = "https://my.sshrm.unsw.edu.au/psc/hrm/NS_HRSELFSERVICE/PSFT_HR/c/PT_FLDASHBOARD.PT_FLDASHBOARD.GBL?DB=HC_TL_EMP_DYN_DB&lp=PSFT_HR.NS_HRSELFSERVICE.HC_TL_EMP_DYN_DB&Page=PT_LANDINGPAGE";
             }, 1000);
         })
     })
